@@ -121,6 +121,56 @@
 // console.log(str[0], str[2], str[4]);
 
 ////////////////////////////////////////////////////////////////////////////////////////////////
+
+// Перевел строку в числа, через функцию multiplication создал массив, потом этот массив перевел в числа
+
+// const num = "12345";
+// const newNumbers = Number(num);
+
+// const multiplication = function () {
+//   let arr = [];
+//   //   console.log(arr);
+//   for (let i = 0; i < arguments.length; i += 1) {
+//     arr.push(arguments[i]);
+//   }
+
+//   let newArr = 0;
+//   for (let i = 0; i < arr.length; i += 1) {
+//     newArr = arr[i];
+//   }
+//   console.log(newArr);
+
+//   return newArr;
+// };
+
+// console.log(multiplication(newNumbers));
+
+// multiplication(newNumbers);
+
+////////////////////////////////////////////////////////////////////////////////
+
+// преобразует строку '12345' в массив чисел [1, 2, 3, 4, 5]
+
+// const num = "12345";
+// const getNumbers = function (num) {
+//   let res = [];
+//   let base = 10;
+//   let currNum = Math.abs(num);
+//   do {
+//     let baseShiftedNum = Math.floor(currNum / base);
+//     let diff = currNum - baseShiftedNum * base;
+//     res.unshift(diff);
+//     currNum = baseShiftedNum;
+//   } while (currNum > 0);
+//   console.log(res);
+//   return res;
+// };
+
+// getNumbers(num);
+
+// const newNumbers = Number(num);
+
+////////////////////////////////////////////////////////////////////////////////////////////////
 ///////////////////////////// Работа с массивами \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
 ////////////////////////////////////////////////////////////////////////////////////////////////
 
@@ -144,7 +194,7 @@
 
 ////////////////////////////////////////////////////////////////////////////////////////////////
 // Создайте массив arr с элементами 2, 5, 3, 9. Умножьте первый элемент массива на второй,
-//     а третий элемент на четвертый.Результаты сложите, присвойте переменной result.
+// а третий элемент на четвертый.Результаты сложите, присвойте переменной result.
 // Выведите на экран значение этой переменной.
 
 // const arr = [2, 5, 3, 9];
