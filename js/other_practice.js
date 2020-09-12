@@ -1,3 +1,4 @@
+///стрессер ///
 // const repeatLog = function (n) {
 //   for (let i = 0; i < n; i += 1) {
 //     console.log(i);
@@ -5,6 +6,18 @@
 // };
 
 // repeatLog(Infinity);
+
+////
+// const repeatLog = function (n) {
+//   let result = [];
+//   for (let i = 0; i < n; i += 1) {
+//     result.push(i);
+//   }
+//   console.log(result);
+// };
+
+// repeatLog(Infinity);
+///
 
 const makeShef = function (name) {
   /*
